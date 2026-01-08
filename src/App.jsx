@@ -13,9 +13,11 @@ import Navbar from './componenets/Navbar'
 function App() {
   return (
     <>
+
+
+<div className='h-10 bg-black text-white'>
     <Navbar></Navbar>
-
-
+</div>
       <div className='h-[80dvh] bg-amber-300 text-9xl'>
     <Routes>
       <Route path="/" element={<Home></Home>}></Route>
