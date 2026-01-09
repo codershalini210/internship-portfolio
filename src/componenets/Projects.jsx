@@ -1,6 +1,7 @@
 import React from 'react'
 import { WebProjects } from './data'
 import myprojectimg from "../assets/Projects.png"
+import bgproject from "../assets/bgprojects.png"
 export default function Projects() {
   //  id: 1,
   //   title: "Task Management System",
@@ -31,9 +32,12 @@ export default function Projects() {
   })
   return (
     <>
-    <img src={myprojectimg} ></img>
-    <div className='flex flex-wrap gap-10 justify-center py-10'>
+    <div className='bg-center bg-fixed bg-cover 'style={{backgroundImage:`url(${bgproject})`}}>
+    <div className='bg-[#3f226d73] flex flex-wrap gap-10 justify-center py-10'
+    // <img src={myprojectimg} ></img>
+    >
       {projectsUI}
+    </div>
     </div>
     </>
   )
