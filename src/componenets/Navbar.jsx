@@ -19,7 +19,7 @@ export default function Navbar() {
               alt="Logo"
             />
             <span className="text-xl font-semibold">
-              Flowbite
+              Shalini Rathore
             </span>
           </Link>
 
